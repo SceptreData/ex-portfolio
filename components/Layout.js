@@ -21,8 +21,8 @@ const Layout = ({ children, title = 'David Bergeron - Web Developer' }) => {
       <Header title={title} />
 
       <main>{children}</main>
-      <footer>
-        <nav>
+      <footer className='fit-content'>
+        <nav style={{ display: 'flex', flexDirection: 'column' }}>
           <a href='#'>home</a>
           <a href='#'>home</a>
           <a href='#'>home</a>

@@ -3,8 +3,7 @@ import css from 'styled-jsx/css'
 export const globalStyles = css.global`
   html {
     box-sizing: border-box;
-    font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Roboto',
-      Ubuntu, sans-serif;
+    font-family: 'Rubik';
     font-size: 112.5%;
   }
   *,
@@ -40,13 +39,14 @@ export const globalStyles = css.global`
     margin: 0 auto;
     min-height: 70vh;
     max-width: 640px;
-    line-height: 1.49;
+    line-height: 1.4;
   }
 
   h1 {
     font-size: 3rem;
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 0.4rem;
+    line-height: 1;
   }
 
   h2 {
@@ -54,7 +54,7 @@ export const globalStyles = css.global`
   }
 
   p {
-    margin-bottom: 1.25rem;
+    margin-bottom: 1.15rem;
   }
 
   a,

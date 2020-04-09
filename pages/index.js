@@ -10,12 +10,21 @@ const Home = (props) => {
     <Layout>
       {/* <GlitchCanvas /> */}
 
-      <h1>I'm David.</h1>
+      <div>
+        <h1>I'm David.</h1>
+        <p>Welcome to my lab.</p>
+      </div>
+
       <h2>
-        Developer, <span className='accent'>designer</span>, and creation
+        I'm a developer, <span className='accent'>designer</span>, and creation
         enthusiast.
       </h2>
-      <p>I like making clean, friendly interfaces.</p>
+
+      <p>
+        {' '}
+        I make stuff for the <span>web</span>
+      </p>
+
       <p>I'm currently living in the beautiful city of Edmonton, Alberta.</p>
 
       <p>
@@ -32,6 +41,18 @@ const Home = (props) => {
           flex-direction: column;
           justify-content: center;
           align-items: center;
+        }
+        h1 {
+          display: flex;
+          align-items: baseline;
+        }
+        p span {
+          font-weight: 700;
+          font-size: 1.2rem;
+        }
+        span {
+          font-weight: 400;
+          font-size: 0.9rem;
         }
       `}</style>
     </Layout>
