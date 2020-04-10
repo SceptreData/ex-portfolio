@@ -1,12 +1,16 @@
 // import App from 'next/app'
 import { ThemeContextProvider } from '../components/ThemeContext'
 import { Helmet } from '../components/Helmet'
+import { globalStyles } from '../styles/globalStyles'
 
 const App = ({ Component, pageProps }) => {
   return (
     <ThemeContextProvider>
       <Helmet />
       <Component {...pageProps} />
+      <style jsx global>
+        {globalStyles}
+      </style>
     </ThemeContextProvider>
   )
 }

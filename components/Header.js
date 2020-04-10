@@ -8,12 +8,13 @@ const Header = ({ title }) => {
   return (
     <header>
       <div className='fit-content'>
-        <h3>David Bergeron</h3>
+        <h3>
+          <a href='/'>David Bergeron</a>
+        </h3>
         <nav>
-          <a href='#'>work</a>
-          <a href='#'>projects</a>
-          <a href='#'>blog</a>
-          <a href='#'>contact</a>
+          <a href='/work'>work</a>
+          <a href='/about'>about</a>
+          <a href='/contact'>contact</a>
         </nav>
         <ThemeToggle theme={theme} />
       </div>
@@ -25,9 +26,15 @@ const Header = ({ title }) => {
             border-bottom: 1px solid #ff862c;
             margin-bottom: 1.25rem;
           }
+          h3 {
+            font-size: 1.5rem;
+          }
           div {
             display: flex;
             justify-content: space-between;
+          }
+          nav {
+            margin-left: auto;
           }
 
           a {

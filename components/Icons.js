@@ -4,7 +4,6 @@ export const ToggleIcon = ({ theme = 'dark' }) => (
     aria-hidden='true'
     focusable='false'
     data-prefix='fas'
-    data-icon='adjust'
     className='toggle-icon'
     style={styles[theme]}
     role='img'

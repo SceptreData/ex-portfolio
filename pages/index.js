@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-import Layout from '../components/Layout'
+import { Layout } from '../components/Layout'
 import GlitchCanvas from '../components/GlitchCanvas'
 import { useThemeContext } from '../components/ThemeContext'
 
@@ -21,7 +21,6 @@ const Home = (props) => {
       </h2>
 
       <p>
-        {' '}
         I make stuff for the <span>web</span>
       </p>
 
@@ -43,6 +42,7 @@ const Home = (props) => {
           align-items: center;
         }
         h1 {
+          padding-top: 20vh;
           display: flex;
           align-items: baseline;
         }
