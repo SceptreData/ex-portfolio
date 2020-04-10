@@ -12,7 +12,7 @@ const Home = (props) => {
 
       <div>
         <h1>I'm David.</h1>
-        <p>Welcome to my lab.</p>
+        <p>Welcome.</p>
       </div>
 
       <h2>
@@ -20,9 +20,7 @@ const Home = (props) => {
         enthusiast.
       </h2>
 
-      <p>
-        I make stuff for the <span>web</span>
-      </p>
+      <p>I make websites and apps with React.</p>
 
       <p>I'm currently living in the beautiful city of Edmonton, Alberta.</p>
 
